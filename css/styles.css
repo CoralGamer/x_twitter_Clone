@@ -20,7 +20,7 @@ button, input[type="submit"], input[type="reset"] {
 .left_Menu{
     max-width: 310px;
     height: 100%;
-    border-right: 1px solid grey;
+    border-right: 1px solid rgb(47, 51, 54);
     padding-right: 40px;
 }
 .fixed {
@@ -138,11 +138,13 @@ button, input[type="submit"], input[type="reset"] {
     margin-left: 310px;
     height: 200vh;
     padding: 0px;
-    background-color: red;
+    /*background-color: red;*/
+    border-right: 1px solid rgb(47, 51, 54);
 }
 .topbuttons_Feed{
     height: 65px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
 }
 .topbuttons_Feed .col-6{
     padding-top: 22px;
@@ -153,7 +155,8 @@ button, input[type="submit"], input[type="reset"] {
     font-weight: 500;
     cursor: pointer;
     padding-bottom: 16px;
-    background-color: rgba(37, 37, 37, 0.753);
+    background-color: rgba(0, 0, 0, 0.76);
+    backdrop-filter: blur(2px);
 }
 .fl_button_f{
     color: #E7E9EA;
@@ -161,7 +164,8 @@ button, input[type="submit"], input[type="reset"] {
     font-weight: 500;
     cursor: pointer;
     padding-bottom: 16px;
-    background-color: rgba(37, 37, 37, 0.753);
+    background-color: rgba(0, 0, 0, 0.76);
+    backdrop-filter: blur(2px);
 }
 .pt_button_f:hover{
     color: #E7E9EA;
@@ -170,7 +174,7 @@ button, input[type="submit"], input[type="reset"] {
     cursor: pointer;
     padding-bottom: 12px;
     border-bottom: 4px solid #0185dd;
-    background-color: rgba(37, 37, 37, 0.753);
+    background-color: rgba(17, 17, 17, 0.76);
 }
 .fl_button_f:hover{
     color: #E7E9EA;
@@ -179,5 +183,63 @@ button, input[type="submit"], input[type="reset"] {
     cursor: pointer;
     padding-bottom: 12px;
     border-bottom: 4px solid #0185dd;
-    background-color: rgba(37, 37, 37, 0.753);
+    background-color: rgba(17, 17, 17, 0.76);
+}
+.postfeed{
+    margin-top: 65px;
+    height: 140px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+#busqueda{
+    resize: none;     
+    border: none;
+    overflow: none;
+    outline: none;
+    margin-left: 2%;
+    height: 80px;
+    width: 95%;
+    font-size: 22px;
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #71767B;
+}
+.postfeedbuttons{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.postfeedbuttons i{
+    margin-right: 13px;
+    cursor: pointer;
+    color: rgb(29, 155, 240);
+}
+#post_b_feed{
+    width: 65%;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 60px;
+    background-color: rgb(18, 118, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: #90969c;
+    font-weight: 500;
+    font-size: 18px;
+}
+.updatefeed{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+.updatefeed .col-12{
+    color: rgb(29, 155, 240);
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.post_text{
+    background-color: red;
 }
