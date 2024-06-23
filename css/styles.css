@@ -242,4 +242,40 @@ button, input[type="submit"], input[type="reset"] {
 }
 .post_text{
     background-color: red;
+    height: 180px;
 }
+/*ESTO ES UNA PRUEBA DE MAQUTADO*/
+.pfp_pt{
+    background-color: aqua;
+    width: 45px;
+    height: 45px;
+}
+.poster_Data{
+    background-color: orange;
+    height: 45px;
+}
+.pt_settings{
+    background-color: green;
+    width: 45px;
+    height: 45px;
+}
+.post_m_text{
+    background-color: violet;
+    height: 75px;
+    margin: 10px 0px;
+}
+.pt_ab_1r .col-3{
+    background-color: purple;
+    width: 60px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.pt_ab_1r .col-3 button{
+    background-color: #0185dd;
+    width: 60px;
+}
+.pt_buttons_a{
+    width: 100%;
+}
+/*aqui acaba la prueba*/
