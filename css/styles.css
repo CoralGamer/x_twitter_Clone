@@ -264,18 +264,29 @@ button, input[type="submit"], input[type="reset"] {
     height: 75px;
     margin: 10px 0px;
 }
+.pt_ab_1{
+    margin-left: -50px;
+}
+.pt_ab_1r{
+    padding-right: 30px;
+}
 .pt_ab_1r .col-3{
     background-color: purple;
-    width: 60px;
-    margin-right: 40px;
-    display: flex;
-    justify-content: center;
+    width: fit-content;
+    margin-right: 35px;
 }
 .pt_ab_1r .col-3 button{
     background-color: #0185dd;
-    width: 60px;
+    width: fit-content;
 }
 .pt_buttons_a{
     width: 100%;
+}
+.pt_ab_2{
+    background-color: rosybrown;
+    width: fit-content;
+}
+.pt_ab_2 button{
+    margin: 0px 8px;
 }
 /*aqui acaba la prueba*/
