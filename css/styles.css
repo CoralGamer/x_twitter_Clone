@@ -245,41 +245,57 @@ button, input[type="submit"], input[type="reset"] {
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 /*ESTO ES UNA PRUEBA DE MAQUTADO*/
+
 .pfp_pt{
     width: 45px;
     height: 45px;
 }
-.poster_Data{
-    background-color: orange;
-    height: 45px;
+.reply_acc{
+    color: rgb(29, 155, 240);
+    cursor: pointer;
 }
-.pd_dataposter{
-    width: 100%;
-    height: 25px;
+.reply_acc:hover{
+    text-decoration: underline;
 }
-.pd_dataposter .col-4{
-    width: fit-content;
-    display: flex;
-    align-items: center;
+.hour_Post{
+    width: 100%; 
+    color: #71767B; 
+    text-decoration: none;
 }
-.pd_dataposter h6{
-    margin-left: 30px;
-}
-.pd_dataposter p{
-    margin-left: 10px;
+.hour_Post:hover{
+    text-decoration: underline;
+    color: #71767B; 
 }
 .pt_settings{
     color: #90969c;
-    width: 45px;
-    height: 45px;
+    margin-top: -3px;
+    margin-right: -9px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.pt_settings:hover{
+    margin-top: -3px;
+    margin-right: -9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #181818;
+}
 .post_m_text{
-    background-color: violet;
+    color: #E7E9EA;
     height: 75px;
-    margin: 10px 0px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0;
+    margin: 12px 0px;
+    line-height: 20px;
+}
+.poster_Data{
+    margin: 0;
+    padding: 0;
 }
 .pt_ab_1{
     margin-left: -50px;
@@ -288,19 +304,18 @@ button, input[type="submit"], input[type="reset"] {
     padding-right: 30px;
 }
 .pt_ab_1r .col-3{
-    background-color: purple;
     width: fit-content;
     margin-right: 35px;
 }
 .pt_ab_1r .col-3 button{
-    background-color: #0185dd;
+    color: #71767B;
     width: fit-content;
 }
 .pt_buttons_a{
     width: 100%;
 }
 .pt_ab_2{
-    background-color: rosybrown;
+    color: #71767B;
     width: fit-content;
 }
 .pt_ab_2 button{
